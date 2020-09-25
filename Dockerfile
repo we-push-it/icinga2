@@ -33,7 +33,6 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     lsb-release \
     bsd-mailx \
     mariadb-client \
-    mariadb-server \
     netbase \
     openssh-client \
     openssl \
