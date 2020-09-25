@@ -14,7 +14,7 @@ ENV APACHE2_HTTP=REDIRECT \
     ICINGA2_FEATURE_DIRECTOR="true" \
     ICINGA2_FEATURE_DIRECTOR_KICKSTART="true" \
     ICINGA2_FEATURE_DIRECTOR_USER="icinga2-director" \
-    MYSQL_ROOT_USER=icinga2
+    MYSQL_ROOT_USER=root
 
 RUN export DEBIAN_FRONTEND=noninteractive \
     && apt-get update \
