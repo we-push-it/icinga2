@@ -24,7 +24,6 @@ services:
       #- ICINGAWEB2_ADMIN_USER=icingaadmin
       #- ICINGAWEB2_ADMIN_PASS=icinga
       #- ICINGA2_USER_FULLNAME=Icinga2 Docker Monitoring Instance
-      - DEFAULT_MYSQL_HOST=mysql
     volumes:
       - ../../data/icinga/cache:/var/cache/icinga2
       - ../../data/icinga/certs:/etc/apache2/ssl
